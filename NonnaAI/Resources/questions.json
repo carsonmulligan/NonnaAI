@@ -1,0 +1,29 @@
+{
+    "kitchen_conversations": {
+      "family_recipes": {
+        "ragù": {
+          "opening": {
+            "user": "Nonna, ogni famiglia ha la sua ricetta del ragù?",
+            "emoji_logic": {
+              "emojis": ["👨‍👩‍👧‍👦", "🍲", "👵", "📖", "🇮🇹", "🥘", "❓"],
+              "text": [
+                "Famiglia",
+                "Piatto",
+                "Nonna",
+                "Ricettario",
+                "Italia",
+                "Ragù",
+                "Domanda"
+              ]
+            },
+            "nonna": {
+              "reaction": "ride dolcemente",
+              "response": "Ogni famiglia, ogni nonna, ogni città! Il nostro è alla fiorentina",
+              "gesture": "apre il vecchio quaderno di ricette",
+              "cultural_note": "Il ragù si cuoce almeno 4 ore, è un rito della domenica"
+            }
+          }
+        }
+      }
+    }
+} 
