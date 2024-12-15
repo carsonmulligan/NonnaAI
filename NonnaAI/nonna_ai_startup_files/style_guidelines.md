@@ -11,7 +11,7 @@
 - Error: #FF6B6B (Soft Red)
 - Success: #4ECB71 (Muted Green)
 
-## Typography
+## Typography 
 ### Fonts
 - Primary: SF Pro Display
 - Headers: Bold, 28pt/34pt

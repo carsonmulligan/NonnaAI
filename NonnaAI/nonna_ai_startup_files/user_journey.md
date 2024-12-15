@@ -6,3 +6,4 @@
 3. Presses “Next” for Nonna’s response, then follow-ups.
 4. Moves through simple linear topics; no complex branching for MVP.
 5. Ends session feeling more confident with Italian phrases.
+ 

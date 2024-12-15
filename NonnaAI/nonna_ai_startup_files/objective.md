@@ -5,3 +5,4 @@
 - **Secondary**: Teach cultural and historical context through simple Q&A.
 - **No Over-Features**: Keep scope tight. Ship and iterate based on user feedback.
 - **Success**: Approved by Apple, stable, positive initial user feedback.
+
