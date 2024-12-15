@@ -17,14 +17,14 @@ final class NonnaAIUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
-    @MainActor
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()
 
-        // Insert steps here to perform after app launch but before taking a screenshot,
-        // such as logging into a test account or navigating somewhere in the app
-
+        // Insert launch performance test here
+        let titleText = app.staticTexts["Impara l'italiano con la Nonna"]
+        XCTAssertTrue(titleText.waitForExistence(timeout: 2.0))
+        
         let attachment = XCTAttachment(screenshot: app.screenshot())
         attachment.name = "Launch Screen"
         attachment.lifetime = .keepAlways
